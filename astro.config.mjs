@@ -3,8 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-	site: 'https://xifan2333.github.io',
-	base: '/fcitx5-vinput',
+	site: 'https://fcitx5-vinput.github.io',
 	integrations: [
 		starlight({
 			title: 'fcitx5-vinput',
@@ -29,12 +28,12 @@ export default defineConfig({
 				{
 					icon: 'github',
 					label: 'GitHub',
-					href: 'https://github.com/xifan2333/fcitx5-vinput',
+					href: 'https://github.com/fcitx5-vinput/fcitx5-vinput',
 				},
 			],
 			editLink: {
 				baseUrl:
-					'https://github.com/xifan2333/fcitx5-vinput/edit/main/site/',
+					'https://github.com/fcitx5-vinput/fcitx5-vinput.github.io/edit/main/',
 			},
 			components: {
 				SiteTitle: './src/components/SiteTitle.astro',
@@ -44,7 +43,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image',
-						content: '/fcitx5-vinput/hero-mic.svg',
+						content: '/hero-mic.svg',
 					},
 				},
 				{
@@ -79,7 +78,7 @@ export default defineConfig({
 							'Voice input for Fcitx5 with local and cloud ASR, LLM rewriting, and cross-distro installation.',
 						applicationCategory: 'UtilitiesApplication',
 						operatingSystem: 'Linux',
-						url: 'https://xifan2333.github.io/fcitx5-vinput/',
+						url: 'https://fcitx5-vinput.github.io/',
 					}),
 				},
 				{

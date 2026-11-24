@@ -1,10 +1,10 @@
-# fcitx5-vinput site
+# fcitx5-vinput.github.io
 
-Starlight-based static site for the project landing page and install page.
+Starlight-based documentation site for [fcitx5-vinput](https://github.com/fcitx5-vinput/fcitx5-vinput), deployed at https://fcitx5-vinput.github.io/.
 
 ## Commands
 
-Run commands from `site/`:
+Run commands from the repository root:
 
 | Command | Action |
 | :------ | :----- |

@@ -15,13 +15,13 @@ class ReleaseDownloads extends HTMLElement {
     const zh = this.dataset.lang === 'zh-cn';
     try {
       const res = await fetch(
-        'https://api.github.com/repos/xifan2333/fcitx5-vinput/releases/latest',
+        'https://api.github.com/repos/fcitx5-vinput/fcitx5-vinput/releases/latest',
       );
       if (!res.ok) throw new Error();
       const release = await res.json();
       this.render(release, zh);
     } catch {
-      const url = 'https://github.com/xifan2333/fcitx5-vinput/releases';
+      const url = 'https://github.com/fcitx5-vinput/fcitx5-vinput/releases';
       this.innerHTML = zh
         ? `<p>加载失败，请<a href="${url}">前往 GitHub Releases</a></p>`
         : `<p>Failed to load. <a href="${url}">View releases on GitHub</a></p>`;

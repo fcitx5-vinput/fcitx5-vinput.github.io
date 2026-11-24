@@ -5,7 +5,7 @@ description: "vinput-registry 贡献规范：模型、提供商和适配器。"
 
 ## 概述
 
-[vinput-registry](https://github.com/xifan2333/vinput-registry) 是一个独立仓库，托管 Vinput 所有可下载资源：本地 ASR 模型、云端 ASR 提供商脚本和 LLM 适配器脚本。当你在 GUI 中点击 **下载** / **安装**，或执行 `vinput model add` / `vinput provider add` / `vinput adapter add` 时，资源就是从这个仓库拉取的。
+[vinput-registry](https://github.com/fcitx5-vinput/vinput-registry) 是一个独立仓库，托管 Vinput 所有可下载资源：本地 ASR 模型、云端 ASR 提供商脚本和 LLM 适配器脚本。当你在 GUI 中点击 **下载** / **安装**，或执行 `vinput model add` / `vinput provider add` / `vinput adapter add` 时，资源就是从这个仓库拉取的。
 
 ```
 vinput-registry/
